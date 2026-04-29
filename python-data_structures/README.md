@@ -1,45 +1,40 @@
-# Python Data Structures
+# Python Data Structures – AI Academy (DLH)
 
-This repository contains my exercises on Python lists, tuples, and basic data structures as part of the AI Academy course at DLH.
+This repository contains my exercises covering Python data structures as part of the AI Academy course at DLH. It focuses on lists, tuples, and basic data manipulation techniques.
 
 ## 📘 Objective
 
-To practice Python fundamentals including:
+To build a strong foundation in Python data structures by learning:
 
-- Lists
-- Tuples
-- Indexing
-- List modification
-- String handling
-- Matrix printing
-- Basic data structure operations
+- Working with lists and tuples
+- Indexing and slicing
+- List modification and copying
+- Matrix operations
+- String manipulation
 
-## 🧩 Tasks Covered
+## 🧩 Topics Covered
 
 ### 📋 Lists
 
-- `0-print_list_integer.py` – Print all integers of a list
-- `1-element_at.py` – Retrieve an element from a list safely
-- `2-replace_in_list.py` – Replace an element at a specific position
-- `3-print_reversed_list_integer.py` – Print a list of integers in reverse
-- `4-new_in_list.py` – Replace an element in a copy of a list
-- `5-no_c.py` – Remove all characters `c` and `C` from a string
-- `6-print_matrix_integer.py` – Print a matrix of integers
+- Printing and accessing elements
+- Replacing and deleting elements
+- Reversing lists
+- Working with copies of lists
 
 ### 🔢 Tuples
 
-- `7-add_tuple.py` – Add two tuples
-- `8-multiple_returns.py` – Return the length and first character of a string
+- Tuple manipulation
+- Returning multiple values
 
-### 🧠 More List Operations
+### 🧠 Data Processing
 
-- `9-max_integer.py` – Find the biggest integer in a list
-- `10-divisible_by_2.py` – Find all multiples of 2 in a list
-- `11-delete_at.py` – Delete an item at a specific position in a list
+- Finding maximum values
+- Filtering elements (e.g., divisible by 2)
+- Matrix traversal and printing
 
-### 🔄 Switch
+### 🔄 Variable Handling
 
-- `12-switch.py` – Switch the values of two variables
+- Swapping values between variables
 
 ## ⚙️ Key Concepts Used
 
@@ -54,16 +49,12 @@ To practice Python fundamentals including:
 - `del`
 - conditionals
 - return values
-- matrix traversal
 
 ## 🎯 Learning Outcome
 
 By completing this module, I am able to:
 
-- Access list elements safely
-- Modify lists in-place
-- Create copies of lists
-- Work with tuples
-- Print lists and matrices correctly
-- Use loops and conditions with data structures
-- Solve basic Python data structure problems
+- Work efficiently with lists and tuples
+- Manipulate and transform data structures
+- Handle edge cases safely
+- Write clean and structured Python code

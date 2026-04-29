@@ -1,104 +1,72 @@
-# Python Fundamentals – AI Academy (DLH)
+# Python More Data Structures
 
-This repository contains my exercises covering **Python fundamentals** as part of the AI Academy course at DLH.
-It includes hands-on practice across printing, strings, control flow, functions, and modules.
-
----
+This repository contains my exercises on advanced Python data structures as part of the AI Academy course at DLH.
 
 ## 📘 Objective
 
-To build a strong foundation in Python by learning:
+To practice Python concepts including:
 
-* Output formatting and printing
-* String manipulation
-* Control flow (conditions & loops)
-* Functions and basic algorithms
-* Working with modules and imports
-* Handling command-line arguments
+- List transformations
+- Sets and set operations
+- Dictionaries
+- Lambda functions
+- map()
+- Functional programming basics
+- Advanced data manipulation
 
----
+## 🧩 Tasks Covered
 
-## 🧩 Topics Covered
+### 📋 Lists
 
-### 🖨️ Printing & Strings
+- `0-square_matrix_simple.py` – Compute square values of a matrix
+- `1-search_replace.py` – Replace elements in a new list
+- `2-uniq_add.py` – Add only unique integers in a list
 
-* Basic printing using `print()`
-* Formatting with f-strings
-* String concatenation and slicing
-* Building and manipulating strings
+### 🔗 Sets
 
----
+- `3-common_elements.py` – Find common elements between two sets
+- `4-only_diff_elements.py` – Find elements present in only one set
 
-### 🔀 Control Flow & Loops
+### 📚 Dictionaries
 
-* Conditional statements (`if`, `elif`, `else`)
-* Looping with `for`
-* Working with ranges and sequences
-* Generating patterns and combinations
+- `5-number_keys.py` – Count number of keys in a dictionary
+- `6-print_sorted_dictionary.py` – Print dictionary sorted by keys
+- `7-update_dictionary.py` – Update or add key/value in a dictionary
+- `8-simple_delete.py` – Delete a key from a dictionary
+- `9-multiply_by_2.py` – Multiply all values in a dictionary by 2
+- `10-best_score.py` – Return key with the highest value
 
----
+### ⚡ Functional Programming
 
-### 🧠 Functions
+- `11-multiply_list_map.py` – Multiply list values using `map()`
+- `12-roman_to_int.py` – Convert Roman numeral to integer
 
-* Creating and using functions
-* Returning values
-* Working with parameters
-* Solving problems like:
+### ⭐ Advanced
 
-  * FizzBuzz
-  * Power calculations
-  * String transformations
-
----
-
-### 📦 Modules & Imports
-
-* Importing functions and variables
-* Using external Python files
-* Understanding `if __name__ == "__main__"`
-* Module discovery using `dir()`
-
----
-
-### 🖥️ Command-Line Arguments
-
-* Using `sys.argv`
-* Counting and listing arguments
-* Performing dynamic calculations from input
-
----
+- `100-weight_average.py` – Calculate weighted average of tuples
+- `101-square_matrix_map.py` – Square matrix using `map()`
+- `102-complex_delete.py` – Delete keys with a specific value
 
 ## ⚙️ Key Concepts Used
 
-```python
-print()
-f-strings
-string slicing
-if / elif / else
-for loops
-range()
-functions
-return
-import
-sys.argv
-len()
-int()
-ord()
-chr()
-```
-
----
+- lists
+- sets
+- dictionaries
+- loops
+- conditionals
+- `map()`
+- `lambda`
+- `set` operations (`&`, `^`)
+- dictionary methods (`items()`, `keys()`)
+- list comprehension
+- tuple unpacking
 
 ## 🎯 Learning Outcome
 
-By completing these modules, I am able to:
+By completing this module, I am able to:
 
-* Write clean and structured Python scripts
-* Control program flow using conditions and loops
-* Manipulate strings and format output
-* Create reusable functions
-* Import and use modules effectively
-* Handle user input via command-line arguments
-* Solve basic programming problems
-
----
+- Work with sets and perform set operations
+- Manipulate dictionaries efficiently
+- Use functional programming tools like `map()` and `lambda`
+- Transform and process lists and matrices
+- Solve more advanced Python data structure problems

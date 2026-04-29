@@ -1,104 +1,69 @@
-# Python Fundamentals – AI Academy (DLH)
+# Python Data Structures
 
-This repository contains my exercises covering **Python fundamentals** as part of the AI Academy course at DLH.
-It includes hands-on practice across printing, strings, control flow, functions, and modules.
-
----
+This repository contains my exercises on Python lists, tuples, and basic data structures as part of the AI Academy course at DLH.
 
 ## 📘 Objective
 
-To build a strong foundation in Python by learning:
+To practice Python fundamentals including:
 
-* Output formatting and printing
-* String manipulation
-* Control flow (conditions & loops)
-* Functions and basic algorithms
-* Working with modules and imports
-* Handling command-line arguments
+- Lists
+- Tuples
+- Indexing
+- List modification
+- String handling
+- Matrix printing
+- Basic data structure operations
 
----
+## 🧩 Tasks Covered
 
-## 🧩 Topics Covered
+### 📋 Lists
 
-### 🖨️ Printing & Strings
+- `0-print_list_integer.py` – Print all integers of a list
+- `1-element_at.py` – Retrieve an element from a list safely
+- `2-replace_in_list.py` – Replace an element at a specific position
+- `3-print_reversed_list_integer.py` – Print a list of integers in reverse
+- `4-new_in_list.py` – Replace an element in a copy of a list
+- `5-no_c.py` – Remove all characters `c` and `C` from a string
+- `6-print_matrix_integer.py` – Print a matrix of integers
 
-* Basic printing using `print()`
-* Formatting with f-strings
-* String concatenation and slicing
-* Building and manipulating strings
+### 🔢 Tuples
 
----
+- `7-add_tuple.py` – Add two tuples
+- `8-multiple_returns.py` – Return the length and first character of a string
 
-### 🔀 Control Flow & Loops
+### 🧠 More List Operations
 
-* Conditional statements (`if`, `elif`, `else`)
-* Looping with `for`
-* Working with ranges and sequences
-* Generating patterns and combinations
+- `9-max_integer.py` – Find the biggest integer in a list
+- `10-divisible_by_2.py` – Find all multiples of 2 in a list
+- `11-delete_at.py` – Delete an item at a specific position in a list
 
----
+### 🔄 Switch
 
-### 🧠 Functions
-
-* Creating and using functions
-* Returning values
-* Working with parameters
-* Solving problems like:
-
-  * FizzBuzz
-  * Power calculations
-  * String transformations
-
----
-
-### 📦 Modules & Imports
-
-* Importing functions and variables
-* Using external Python files
-* Understanding `if __name__ == "__main__"`
-* Module discovery using `dir()`
-
----
-
-### 🖥️ Command-Line Arguments
-
-* Using `sys.argv`
-* Counting and listing arguments
-* Performing dynamic calculations from input
-
----
+- `12-switch.py` – Switch the values of two variables
 
 ## ⚙️ Key Concepts Used
 
-```python
-print()
-f-strings
-string slicing
-if / elif / else
-for loops
-range()
-functions
-return
-import
-sys.argv
-len()
-int()
-ord()
-chr()
-```
-
----
+- lists
+- tuples
+- indexing
+- slicing
+- loops
+- `range()`
+- `len()`
+- `str.format()`
+- `del`
+- conditionals
+- return values
+- matrix traversal
 
 ## 🎯 Learning Outcome
 
-By completing these modules, I am able to:
+By completing this module, I am able to:
 
-* Write clean and structured Python scripts
-* Control program flow using conditions and loops
-* Manipulate strings and format output
-* Create reusable functions
-* Import and use modules effectively
-* Handle user input via command-line arguments
-* Solve basic programming problems
-
----
+- Access list elements safely
+- Modify lists in-place
+- Create copies of lists
+- Work with tuples
+- Print lists and matrices correctly
+- Use loops and conditions with data structures
+- Solve basic Python data structure problems
